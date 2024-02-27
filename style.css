@@ -6,13 +6,7 @@
     src: url(fonts/RobotoCondensed-ExtradarkItalic.ttf);
     font-family: blacked;
 }
-body{
-  
-    background-image: url(https://external-preview.redd.it/learn-javascript-for-beginners-100-off-udemy-coupons-v0-NDLOnBkRg9smSsVKKd5hmsiNpqSmUXbEtAA8RQ5jX7s.jpg?auto=webp&s=3f05dbc54f107c69ee9c52f9875591c7cda405de);
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: 100%;
-}
+
 *{
     padding: 0;
     margin: 0;
