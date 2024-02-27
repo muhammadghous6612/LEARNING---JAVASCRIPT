@@ -6,7 +6,13 @@
     src: url(fonts/RobotoCondensed-ExtradarkItalic.ttf);
     font-family: blacked;
 }
-
+body{
+  
+    background-image: url(https://external-preview.redd.it/learn-javascript-for-beginners-100-off-udemy-coupons-v0-NDLOnBkRg9smSsVKKd5hmsiNpqSmUXbEtAA8RQ5jX7s.jpg?auto=webp&s=3f05dbc54f107c69ee9c52f9875591c7cda405de);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: 100%;
+}
 *{
     padding: 0;
     margin: 0;
@@ -35,6 +41,7 @@ flex-direction: column;
 }
 .box{
 
+    height: 170px;
     width: 150px;
     border: 2px solid #000;
 display: flex;
@@ -48,9 +55,13 @@ align-items: center;
 box-shadow: 1px 2px 2px #000;
 
 }
+.parent{
+    display: flex;
+    flex-direction: row;
+}
 .c1 ,.c2{
     height: 30px;
-    width: 100px;
+    width: 120px;
     border: 1px solid #000;
     gap: 3;
     margin-top: 5px;
@@ -72,6 +83,7 @@ a{
 } */
 .navbar{
     font-family: blacked;
+    width: 100%;
 }
 .c1:hover{
     transform: scale(1.2);
@@ -89,3 +101,58 @@ a{
 a{
     color:#fff;
 }
+
+@media (max-width:481px){
+    .box{
+        height: 200px;
+        /* width: 240; */
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    }
+    .c1 ,.c2{
+        height: 30px;
+        width: 120px;
+        border: 1px solid #000;
+        gap: 3;
+        margin-top: 5px;
+    text-decoration: none;
+    /* list-style: none; */
+    color: #000;
+    background-color: rgb(36, 38, 39);
+    box-shadow: 1px 2px 2px #000;
+    }
+    .parent{
+flex-direction: column;
+display: grid;
+margin-bottom: 20px;
+    }
+    .navbar{
+     text-align: center;
+
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+       background: #fff;
+        margin-top: 12px ;
+    /* overflow: hidden; */
+    /* box-shadow: 1px 2px 3px #000; */
+    margin-left: 49px;
+    }
+}
+@media(max-width:277px){  
+    .img{
+        height: 100px;
+        width: 100px;
+         margin:0  auto;
+       background: #fff;
+        margin-top: 12px ; 
+    overflow: ;
+    /* box-shadow: 1px 2px 3px #000; */
+    margin-right:5cm;
+    }
+ } 
