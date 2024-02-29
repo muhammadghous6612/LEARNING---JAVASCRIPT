@@ -91,7 +91,7 @@ a{
 
 }
 body{
-  background:linear-gradient(rgb(237, 238, 233),rgb(250, 249, 248),#464626,rgb(243, 243, 239));  
+  /* background:linear-gradient(rgb(237, 238, 233),rgb(250, 249, 248),#464626,rgb(243, 243, 239));   */
 }
 .c2:hover{
     transform: scale(1.2);
