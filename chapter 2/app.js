@@ -105,154 +105,171 @@ var z=4
 var yz=y%(z+1)
 console.log(yz)
 // 15. If var a = 10 and var b = 3, what is the value of a * (b - 2)?
-var a=10
-var b=3
-var aba=a*(b-2)
-console.log(aba)
+// var a=10
+// var b=3
+// var aba=a*(b-2)
+// console.log(aba)
 
-var fname='Muhammad ghous'
-var lname='chisthi'
-var fullname=fname+lname
-document.write(`salam ${fullname} `)
+// var fname='Muhammad ghous'
+// var lname='chisthi'
+// var fullname=fname+lname
+// document.write(`salam ${fullname} `)
 
-var tableNum=1
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=2
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=3
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=4
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=5
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=6
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=7
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=8
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=9
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-var tableNum=10
-var tNum=1
-var tdNum=1
-document.write(`<h4>${tableNum} ka table </h4>`)
-document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
-document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=1
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=2
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=3
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=4
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=5
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=6
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=7
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=8
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=9
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// var tableNum=10
+// var tNum=1
+// var tdNum=1
+// document.write(`<h4>${tableNum} ka table </h4>`)
+// document.write(`<li>${tableNum}x${tdNum}= ${tableNum*tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum} </li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+// document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
+
+var tableNum=prompt('Table you want')
+
+document.write(`<center><h4>${tableNum} ka table </h4>`)
+document.write(`<center><li>${tableNum}x1=${1*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x2=${2*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x3=${3*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x4=${4*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x5=${5*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x6=${6*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x7=${7*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x8=${8*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x9=${9*tableNum}</li></center>`)
+document.write(`<center><li>${tableNum}x10=${10*tableNum}</li></center>`)
+
+
+
+// document.write(`<h1>Table of`)<br>
 

@@ -4,8 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .h1{
+            color: aliceblue;
+            background: darkgreen;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 12px 15px 12px #000;
+            text-align: center;
+            margin: 0%;
+            padding: 0%;
+        }
+        .text-value{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color:#154f0c;
+            background-color: #fff;
+            box-shadow: 3px 5px 4px #000;
+            border:1px solid black;
+            width: 50%;
+            margin-top:100%;
+            margin:0 auto;
+
+        }
+        .text-values{
+            text-align:center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color:#154f0c;
+            background-color: #fff;
+            box-shadow: 3px 5px 4px #000;
+            border:1px solid black;
+            width: 50%;
+            margin-top:4cm;
+            margin:0 auto;
+        }
+        .div-2{
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
+    <div style="padding:15px;background-color: #154f0c;" ><h1 style=" margin-left: 0%;margin-right: 0%; background-color: #fff;text-align: center;" style="margin: 0px;">1.Even/Odd Number Checker</h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
     
+    " >Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2>
+    </div>
+<!-- end first assigment -->
+    <!-- Ask the user to input a number. If the number is positive, show "The number is positive", if it's negative, show "The number is negative", and if it's zero, show "The number is zero". -->
+
+<div style="padding:15px;background-color: #fefcfe;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #12452d;color:#fff;text-align: center;" style="margin: 0px;">2. Positive/Negative Number Checker:
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('POSITIVE ,NEGATIVE & ZERO NUMBER PROVE')
+if(number > 0  ){document.write('<center><h3>Its POSITIVE NUMBER</h3></center>');}else if(number < 0){document.write('<center><h3 >Its NEGATIVE NUMBER</h3></center>');}else {document.write('<center><h3 >Its ZERO NUMBER</h3></center>');}
+    
+    ">Click & Check the <q>POSITIVE</q>& <q>NEGATIVE</q> number.</h2></div>
+    </div>
+    <!-- end second assigment -->
+
+    <!-- Prompt the user to enter two numbers. Display the larger number. -->
+
+
+    <!-- <div style="padding:15px;background-color:#12452d ;" >
+        <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #fff;text-align: center;" style="margin: 0px;">3. Maximum of Two Numbers:
+        </h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number ){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+    
+    ">Click & Check the <q>MAXIMUM OF TWO</q> number.</h2></div>
+    </div> -->
+<!-- <div style="padding:15px;background-color: #fcfcf9;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #0b4912;color: #fff; text-align: center;" style="margin: 0px;">4. Minimum of Three Numbers:
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+     -->
+    <!-- ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+
+<!-- 5. Factorial Calculator:
+Request the user to input a number. Calculate its factorial and display the result. -->
+
+<!-- <div style="padding:15px;background-color: #0c3f10;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #fcfcfc;color: #0b4912; text-align: center;" style="margin: 0px;">5. Factorial Calculator:
+
+    </h1>
+    <h2 class="text-value" onclick="var tableName=prompt('EVEN/ODD NUMBER CHECKER')
+if(number * ){document.write('<center>
+document.write(`<li>${tableNum}x1=${1*tableNum}</li>`);
+document.write(`<li>${tableNum}x2=${2*tableNum}</li>`);
+document.write(`<li>${tableNum}x3=${3*tableNum}</li>`);
+document.write(`<li>${tableNum}x4=${4*tableNum}</li>`);
+document.write(`<li>${tableNum}x5=${5*tableNum}</li>`);
+document.write(`<li>${tableNum}x6=${6*tableNum}</li>`);
+document.write(`<li>${tableNum}x7=${7*tableNum}</li>`);
+document.write(`<li>${tableNum}x8=${8*tableNum}</li>`);
+document.write(`<li>${tableNum}x9=${9*tableNum}</li>`);
+document.write(`<li>${tableNum}x10=${10*tableNum}</li>`);</center>');}
+    
+    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+
+
+    <!-- grade calculator -->
+<div style="padding:15px;background-color: #0c3c0c;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #fcfcfc;color: #084916; text-align: center;" style="margin: 0px;">3. Grade Calculator:
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('CALCULATE THE RESULT')
+if(number < 40){document.write('<center><h3>FAILED</h3></center>');}else if(number > 40 ){document.write('<center><h3 >PASSED</h3></center>');} else if(number >99 && number < 101){document.write('<center><h3 ><q>TOPED</q></h3></center>');}
+    
+    ">Click & Check the <q>RESULT</q>.</h2></div>
+<!-- <div style="padding:15px;background-color: #fdfefd;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #084916;color: #fdfffd; text-align: center;" style="margin: 0px;">7. Temperature Converter:
+
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+    
+    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+<!-- <div style="padding:15px;background-color: #084916;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #f7f9f7;color: #0b0b0b; text-align: center;" style="margin: 0px;">
+        8. Triangle Type Identifier:
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+    
+    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+
+<!-- 13. Character Vowel/Consonant Checker:
+Take a character from the user and determine if it's a vowel or a consonant. Display "Vowel" or "Consonant" accordingly. -->
+
+
+<!-- <div style="padding:15px;background-color: #084916;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #f7f9f7;color: #0b0b0b; text-align: center;" style="margin: 0px;">
+        9. Character Vowel/Consonant Checker:    </h1>
+    <h2 class="text-value" onclick="var number=prompt('  Character Vowel/Consonant Checker:')
+if(number | ){document.write('<center><h3>CONSONANT</h3></center>');}else if(){document.write('<center><h3 >VOWEL</h3></center>')};    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+<!-- <div style="padding:15px;background-color: #084916;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #f7f9f7;color: #0b0b0b; text-align: center;" style="margin: 0px;">
+        8. Triangle Type Identifier:
+    </h1>
+    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
+if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+    
+    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+
+<!-- 15. Age Group Classifier: -->
+<!-- Ask the user for their age and classify them into one of the following groups: "Child" (0-12 years), "Teenager" (13-19 years), "Adult" (20-64 years), or "Senior" (65 years and above). Display the appropriate message. -->
+<div style="padding:15px;background-color: #fcfefd;" >
+    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #083608;color: #fbf7f7; text-align: center;" style="margin: 0px;">
+        4. Age Group Classifier:
+ </h1>
+    <h2 class="text-value" onclick="var number=prompt('AGE CHECKER');
+if(number < 12){document.write(`<center><h1>CHILD</h1></center>`);}else if(number > 12 && number < 20){document.write(`<center><h1 >TEENAGER</h1></center>`);}else if(number > 19 && number < 66){document.write(`<center><h1 >ADULT</h1></center>`);}else {document.write(`<center><h1 >SENIOR</h1></center>`);} ">Click & Check the <q>AGE</q>.</h2></div>
+    <!-- <script src="app.js"></script> -->
 </body>
 </html>
