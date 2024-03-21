@@ -47,7 +47,7 @@
 <body>
     <div style="padding:15px;background-color: #154f0c;" ><h1 style=" margin-left: 0%;margin-right: 0%; background-color: #fff;text-align: center;" style="margin: 0px;">1.Even/Odd Number Checker</h1>
     <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
-if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
+if(number%2==1){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
     
     " >Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2>
     </div>
@@ -140,14 +140,7 @@ Take a character from the user and determine if it's a vowel or a consonant. Dis
         9. Character Vowel/Consonant Checker:    </h1>
     <h2 class="text-value" onclick="var number=prompt('  Character Vowel/Consonant Checker:')
 if(number | ){document.write('<center><h3>CONSONANT</h3></center>');}else if(){document.write('<center><h3 >VOWEL</h3></center>')};    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
-<!-- <div style="padding:15px;background-color: #084916;" >
-    <h1 style=" margin-left: 0%;margin-right: 0%; background-color: #f7f9f7;color: #0b0b0b; text-align: center;" style="margin: 0px;">
-        8. Triangle Type Identifier:
-    </h1>
-    <h2 class="text-value" onclick="var number=prompt('EVEN/ODD NUMBER CHECKER')
-if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{document.write('<center><h3 >Its EVEN NUMBER</h3></center>')};
-    
-    ">Click & Check the <q>ODD</q>& <q>EVEN</q> number.</h2></div> -->
+
 
 <!-- 15. Age Group Classifier: -->
 <!-- Ask the user for their age and classify them into one of the following groups: "Child" (0-12 years), "Teenager" (13-19 years), "Adult" (20-64 years), or "Senior" (65 years and above). Display the appropriate message. -->
@@ -157,6 +150,22 @@ if(number%3){document.write('<center><h3>Its ODD NUMBER</h3></center>');}else{do
  </h1>
     <h2 class="text-value" onclick="var number=prompt('AGE CHECKER');
 if(number < 12){document.write(`<center><h1>CHILD</h1></center>`);}else if(number > 12 && number < 20){document.write(`<center><h1 >TEENAGER</h1></center>`);}else if(number > 19 && number < 66){document.write(`<center><h1 >ADULT</h1></center>`);}else {document.write(`<center><h1 >SENIOR</h1></center>`);} ">Click & Check the <q>AGE</q>.</h2></div>
-    <!-- <script src="app.js"></script> -->
+    
+    
+<div style="padding:15px;background-color: #084916;" >
+    <h1 style="margin-left: 0%;margin-right: 0%; background-color: #f7f9f7;color: #0b0b0b; text-align: center;" style="margin: 0px;">
+        
+    8. Triangle Type Identifier:
+    </h1>
+    <h2 class="text-value" onclick="
+    var number1=prompt('side1');
+    var number2=prompt('side2');
+    var number3=prompt('side3');
+  
+
+if(number1 === number2 && number1 === number3){document.write('<center><h3>TRIANGLE</h3></center>');}else if(number1 === number2 || number2 === number3 || number1 === number3){document.write('<center><h3 >ISOCELES TRIANGLE/h3></center>')};
+    
+    ">Click & Check the <q>ISOCELES</q>& <q>TRIANGLE</q>.</div> 
+    <script src="app.js"></script>
 </body>
 </html>
