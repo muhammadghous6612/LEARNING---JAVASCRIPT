@@ -255,21 +255,26 @@ console.log(yz)
 // document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
 // document.write(`<li>${tableNum}x${++tdNum}= ${tableNum*++tNum}</li>`)
 
-var tableNum=prompt('Table you want')
+// var tableNum=prompt('Table you want')
 
-document.write(`<center><h4>${tableNum} ka table </h4>`)
-document.write(`<center><li>${tableNum}x1=${1*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x2=${2*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x3=${3*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x4=${4*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x5=${5*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x6=${6*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x7=${7*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x8=${8*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x9=${9*tableNum}</li></center>`)
-document.write(`<center><li>${tableNum}x10=${10*tableNum}</li></center>`)
+// document.write(`<center><h4>${tableNum} ka table </h4>`)
+// document.write(`<center><li>${tableNum}x1=${1*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x2=${2*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x3=${3*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x4=${4*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x5=${5*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x6=${6*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x7=${7*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x8=${8*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x9=${9*tableNum}</li></center>`)
+// document.write(`<center><li>${tableNum}x10=${10*tableNum}</li></center>`)
 
 
 
 // document.write(`<h1>Table of`)<br>
 
+var tableNumber=prompt('enter your number')
+document.write(`<center><h1>${"TABLE OF" +" " +tableNumber}</h1></center>`)
+for(i=1 ;i<=10; i++){
+document.write(`<center><h1>${tableNumber +"  "+ 'x'+"  "+ i +"  "+'='+i*tableNumber +"  "+ "<br>"}</h1></center>`);
+}

@@ -48,10 +48,7 @@ align-items: center;
 /* gap: 3; */
 margin-top: 2rem;
 box-shadow:-12px 12px 12px #000;
-/* margin-top: 12px; */
-/* overflow-y: scroll ; */
-/* overflow-y: hidden; */
-/* box-shadow: -12px 12px; */
+border-radius: 10px;
 
 }
 .parent{
@@ -78,12 +75,14 @@ a{
     text-decoration: none;
     color: #000;
     font-family: black;
+
 }
-/* a:hover{
+a:hover{
     text-decoration: none;
     color: #faf6f6;
     font-family: black;
-} */
+
+}
 .navbar{
     font-family: blacked;
     width: 100%;
@@ -92,19 +91,23 @@ a{
     transform: scale(1.2);
     transition: 1s;
     color:aliceblue;background-color: #000;
-
+ 
 }
+
 body{
   /* background:linear-gradient(rgb(237, 238, 233),rgb(250, 249, 248),#464626,rgb(243, 243, 239));   */
+
 }
 .c2:hover{
     transform: scale(1.2);
     transition: 1s;
     color:aliceblue;
     background-color: #000;
+
 }
 a{
     color:#fff;
+    
 }
 .img{
     display: flex;

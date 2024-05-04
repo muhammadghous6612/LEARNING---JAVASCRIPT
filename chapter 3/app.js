@@ -1,4 +1,4 @@
-// 1. Even/Odd Number Checker:
+//. Even/Odd Number Checker:
 //    Prompt the user to enter a number. If the number is even, display "The number is even", otherwise display "The number is odd".
 // document.write(`<center><h1 class="text">EVEN & ODD NUMBER CHECKER</h1></center>`)
 
@@ -10,4 +10,4 @@
 
 // console.log(typeof num1);
 
-// if (num1>num2){document.write(num1);}else{document.write(num2)}
+// if (num1>num2){document.write(num1);}else{document.write(num2)} 1

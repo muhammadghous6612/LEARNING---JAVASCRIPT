@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+h3{
+    background: linear-gradient(green,lightgreen);
+    border-radius: 5px;
+    padding: 0 12px;
+    box-shadow: 3px,-3px ,#000;
+    
+}
+div{
+    padding: 0 12px;
+}
+    </style>
+</head>
+<body>
+   
+  <div style="background-color: rgb(11, 184, 34);">
+       <h3>1.Strong length calculation</h3><br>
+       <p>write a program to calculate the length of a given sting.</p><br>
+       <script>
+        var a="muhammad ghous"
+        document.write(a+"<br>")
+
+        document.write(a.length)
+       </script>
+
+    </div><br>
+  <div style="background-color:rgb(0, 255, 30);">
+       <h3>2.String to uppercase.</h3><br>
+       <p>Convert a string to uppercase.</p><br>
+       <script>
+        var a=" ghous"
+        document.write(a +"<br>")
+        document.write(a[0].toUpperCase()+a[1].toUpperCase()+a[2].toUpperCase()+a[3].toUpperCase()+a[4].toUpperCase()+a[5].toUpperCase())
+       </script>
+    `           
+    </div><br>
+  <div style="background: #00ff20;;">
+       <h3>3. *String to Lowercase*:
+    </h3><br>
+       <p>Convert a string to Lowercase.</p><br>
+       <script>
+        var a="GHOUS"
+        document.write(a +"<br>")
+        document.write(a[0].toLowerCase()+a[1].toLowerCase()+ a[2].toLowerCase()+a[3].toLowerCase()+a[4].toLowerCase())
+       </script>
+    `           
+    </div>
+    </div><br>
+  <div style="background: #00ff20;;">
+       <h3>
+        4. *Count Specific Character*:
+
+    </h3><br>
+       <p>Write a program to capitalize the first letter of each word in a given string.
+
+    </p><br>
+       <script>
+        var a="ghous"
+        document.write(a +"<br>") 
+        var a="ghous"
+        document.write(a[0].toUpperCase()+ a.slice (1,5))</script>
+    </div><br>
+  <div style="background: #00ff20;;">
+       <h3>
+        5.Remove Duplicate.
+
+    </h3><br>
+       <p>Remove dupicate character from a string.
+
+    </p><br>
+       <script>
+        var a="Salam , I am a good boy. and he is a lazey boy. "
+        document.write(a +"<br>") 
+        document.write(a.indexOf("boy"))</script></div>
+    </div><br>
+  <div style="background: #00ff20;;">
+       <h3>
+        5.WOrd count in string .
+
+    </h3><br>
+       <p>
+Remove leading and whitespace frome a string.
+    </p><br>
+       <script>
+        var b ="  Salam , I am a good boy. and he is a lazey boy.  "
+        document.write(b +"<br>") ;
+        document.write(b.length);
+        document.write(b.trim( ).length)
+
+</script>
+
+</div>
+<div>
+<script>   
+        var b ="  Salam , I am a good boy. and he is a lazey boy.  "
+var count=0
+for(var i=0; i<b.length ; i++){
+    if(b.charAt(i).toLowerCase === "a") count++;
+}
+
+console.log('count' );
+        </script></div></body></html>
+    
