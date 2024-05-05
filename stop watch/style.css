@@ -1,39 +1,41 @@
-h1 {
-    text-align: center;
-  }
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  position: fixed;
+  top: 25rem;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+.container>.box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50px;
+  border: 1px solid black;
+  padding: 30px;
+  background: repeating-linear-gradient(skyblue, lightgray);
+  border-radius: 15px;
   
-  .container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    max-width: 600px;
-    margin: 0px auto;
-  }
-  
-  .box {
-    height: 90px;
-    width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid violet;
-    font-size: 40px;
-    cursor: pointer;
-  }
-  .box:hover {
-    background-color: violet;
-    color: white;
-  }
-  
-  .info_box {
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid violet;
-    margin-top: 20px;
-    padding: 10px;
-  }
-  
-  .msg {
-    text-align: center;
-  }
+  font-size: 30px;
+}
+.container>.box p{
+  margin: 0 auto;
+  text-align: center;
+}

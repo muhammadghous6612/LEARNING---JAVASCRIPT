@@ -1,68 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lucky Number Game</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        
-        font-style: oblique;
-        text-align: center;
-        font-size: xx-large;
-        background-color: rgb(0, 255, 21);
-        
-    }
-</style>
-</head>
-<body>
-<h1>Lucky Number Game</h1>
-<p>Try your luck! You have only 10 attempts.</p>
-<p>Enter a number between 0 and 6:</p>
-<input type="number" id="userInput">
-<button onclick="checkLuck()">CHECK THE NUMBER</button>
-<p id="result"></p>
-
-<script>
-    let attempts = 10;
-    let matches = 0;
-    let generatedNumber;
-
-    function generateRandomNumber() {
-        return Math.floor(Math.random() * 7); // Generates a random number between 0 and 6
-    }
-
-    function checkLuck() {
-        let userInput = parseInt(document.getElementById('userInput').value);
-
-        if (attempts > 0) {
-            if (userInput >= 0 && userInput <= 6) {
-                if (typeof generatedNumber === 'undefined') {
-                    generatedNumber = generateRandomNumber();
-                }
-
-                if (userInput === generatedNumber) {
-                    matches++;
-                    if (matches >= 3) {
-                        document.getElementById('result').innerText = 'Congratulations! You won!';
-                        document.getElementById('userInput').setAttribute('disabled', true);
-                    } else {
-                        document.getElementById('result').innerText = 'Matched! Keep going.';
-                    }
-                } else {
-                    document.getElementById('result').innerText = 'Not matched. Try again.';
-                }
-                attempts--;
-            } else {
-                document.getElementById('result').innerText = 'Please enter a number between 0 and 6.';
-            }
-        } else {
-            document.getElementById('result').innerText = 'Game over. You lose!';
-            document.getElementById('userInput').setAttribute('disabled', true);
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
-    }
-</script>
+    </style>
+</head>
+<body id="container"> 
+    <div class="container" >
+    <h1 style="font-size: 40px; color: aqua; text-align: end; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="quick">Quick <b style="color: black;text-shadow: 0px 0px 15px rgb(5, 193, 245)">Stop</b><h1> 
+  
+    <h1 id="number" class="number">00</h1>
+    <div class="input">
+        <input placeholder="Add Your number" id="user_input" type="number" />
+    </div>
+    <h4 id="result" class="result">-</h4>
+   <span class="bo">
+
+       <button id="start_btn" onclick="start()" class="button">start</button>
+       <button onclick="stop()" class="button">stop</button>
+   </span></div>
+    <script src="app.js"></script>
 </body>
 </html>
 
